@@ -129,26 +129,8 @@ async function inicializa(){
           largo_productos=json.length;
           objetos_productos = json;
           actualiza_productos();
-          //diseno
-          const data2 = await fetch(
-          `https://gus.works/api/uba.php`
-          );
-          const json2 = await data2.json();
-
-          largo_diseno=json2.length;
-          objetos_diseno = json2;
-
-          //estilo
-          const data3 = await fetch(
-          `https://gus.works/api/uba.php`
-          );
-          const json3 = await data3.json();
-
-          largo_estilo=json3.length;
-          objetos_estilo = json3;
-
-          actualiza_diseno(); 
-          actualiza_estilo(filtro);     
+        
+           
          
       } catch (err) {
           console.error(`Error getting json: ${err}`);
