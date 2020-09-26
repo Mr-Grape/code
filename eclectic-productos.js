@@ -1,1 +1,14 @@
-[{"Nombre":"Florero1","Nombre2":"Azul","Descripcion":"Peque\u00f1o florero","Costo":"44","Oferta":"30","Imagen":"https:\/\/picsum.photos\/seed\/picsum\/200\/300","id":0},{"Nombre":"Florero2","Nombre2":"Rojo","Descripcion":"Peque\u00f1o florero","Costo":"50","Oferta":"40","Imagen":"https:\/\/picsum.photos\/seed\/picsum\/200\/301","id":1},{"Nombre":"Florero3","Nombre2":"Negro","Descripcion":"Peque\u00f1o florero","Costo":"60","Oferta":"50","Imagen":"https:\/\/picsum.photos\/seed\/picsum\/200\/302","id":2},{"Nombre":"Florero4","Nombre2":"Verde","Descripcion":"Peque\u00f1o florero","Costo":"70","Oferta":"60","Imagen":"https:\/\/picsum.photos\/seed\/picsum\/200\/303","id":3}]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
